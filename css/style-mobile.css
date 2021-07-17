@@ -1,0 +1,67 @@
+@media (max-width: 700px) {
+  html {
+    width: 100vw;
+    height: auto;
+  }
+
+  .buy-button {
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  .card-produtos {
+    flex-basis: 100%;
+    border-radius: 0;
+    background-color: rgba(85, 86, 87, 0.2);
+  }
+
+  .header-style {
+    height: 30px;
+    margin-top: 0;
+    padding: 1px;
+    background-color: rgba(85, 86, 87, 0.5);
+  }
+
+  .ul-style {
+    width: 100vw;
+    font-size: 20px;
+  }
+
+  footer {
+    height: auto;
+    padding: 5px;
+  }
+
+  .logos {
+    width: 100px;
+    position: absolute;
+  }
+
+  .background-section-one {
+    background-color: transparent;
+  }
+
+  .background-section-one-txt {
+    width: 100%;
+    color: black;
+  }
+
+  #h1 {
+    font-size: 30px;
+  }
+
+  #p {
+    text-align: center;
+    text-transform: none;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .background-section-two {
+    height: 300px;
+  }
+
+  .card-container-produtos {
+    margin: 5px 2px 0px 2px;
+  }
+}

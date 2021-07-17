@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: rgba(60, 60, 60, 0.5);
+  background-image: url(../assets/baixados.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.header-style {
+  margin-top: 10px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+}
+
+.nav-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.ul-style {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 600px;
+  font-size: 25px;
+}
+
+.section-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.background-section-one {
+  height: 300px;
+  background-color: rgba(20, 20, 20, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: yellow;
+  text-transform: capitalize;
+}
+
+.background-section-one-txt {
+  width: 40%;
+}
+
+.txt {
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.background-section-two {
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background: #fff;
+  border-radius: 25px;
+  padding: 25px;
+  max-width: 450px;
+  text-align: center;
+}
+
+.logos {
+  width: 30%;
+  position: relative;
+  padding: 5px 0px;
+  border: 1px transparent solid;
+  border-radius: 100px;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 12px;
+  background: #000;
+  color: #fff;
+}
+
+form {
+  display: grid;
+}
+
+footer {
+  height: auto;
+  padding: 25px;
+  text-align: center;
+  background-color: rgba(20, 20, 20, 0.5);
+  color: #fff;
+  font-size: 15px;
+}
